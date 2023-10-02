@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px;
+    font-size: 24px;
+}
+.escola-foto{
+    width: 20%;
+    padding: 48px;
+}
+.escola{
+    background-image: linear-gradient(#424E61,#4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.escola-conteudo{
+    width: 35%;
+}
+.foto-aluno{
+    width: 240px;
+}
+.estudante{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+.logo-rodape{
+    height: 60px;
+    padding: 12px 0;
+}
